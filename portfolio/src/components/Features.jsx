@@ -91,7 +91,7 @@ const Features = () => {
                     className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10"
                 >
                     {features.map((f, i) => (
-                        <Parallax key={i} offset={i % 2 === 0 ? 0 : 40} className="h-full">
+                        <Parallax key={i} offset={i % 2 === 0 ? 50 : 150} className="h-full">
                             <motion.div
                                 variants={itemVariants}
                                 className="inbio-card group hover:bg-gradient-to-br from-accent to-[#ff014f]/80 p-4 md:p-10 h-full"

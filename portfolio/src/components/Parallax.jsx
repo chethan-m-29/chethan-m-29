@@ -9,10 +9,11 @@ const Parallax = ({ children, offset = 50, className = "" }) => {
     });
 
     const y = useTransform(scrollYProgress, [0, 1], [offset, -offset]);
+    const rotate = useTransform(scrollYProgress, [0, 1], [0, offset / 20]); // Slight rotation based on offset
 
     return (
         <div ref={ref} className={className}>
-            <motion.div style={{ y }}>
+            <motion.div style={{ y, rotate }}>
                 {children}
             </motion.div>
         </div>

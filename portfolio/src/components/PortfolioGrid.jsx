@@ -80,7 +80,7 @@ const PortfolioGrid = () => {
                     className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10"
                 >
                     {projects.map((p, i) => (
-                        <Parallax key={i} offset={i % 2 === 0 ? 0 : 40} className="h-full">
+                        <Parallax key={i} offset={i % 2 === 0 ? 30 : 200} className="h-full">
                             <motion.div
                                 variants={itemVariants}
                                 whileHover={{ y: -10 }}
