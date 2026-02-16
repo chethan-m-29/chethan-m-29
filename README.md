@@ -36,6 +36,8 @@ My toolkit for coding, architecting, and slaying projects:
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=chethan-m-29&show_icons=true&theme=dark&hide_border=true&title_color=ff014f&icon_color=ff014f&text_color=c4cfde&bg_color=161b22" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chethan-m-29&theme=dark&hide_border=true&stroke=ff014f&ring=ff014f&fire=ff014f&currStreakLabel=ff014f" alt="Streak Stats" />
 </p>
 
 <p align="center">
