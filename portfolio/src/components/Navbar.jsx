@@ -3,10 +3,10 @@ import React from 'react';
 const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 w-full z-50 bg-[#212428]/90 backdrop-blur-md border-b border-black/10">
-            <div className="container mx-auto px-8 lg:px-12 h-20 flex items-center justify-between">
+            <div className="container mx-auto px-8 lg:px-12 h-16 flex items-center justify-between">
                 {/* Logo Section */}
                 <div className="flex items-center gap-3 shrink-0">
-                    <span className="text-xl font-bold tracking-tighter text-white">PORTFOLIO</span>
+                    <span className="text-2xl font-bold tracking-tighter text-white">PORTFOLIO</span>
                 </div>
 
                 {/* Navigation Section */}
