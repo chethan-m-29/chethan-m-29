@@ -8,19 +8,19 @@ const PortfolioGrid = () => {
             title: "E-Commerce Infrastructure Scaling",
             cat: "Web Development",
             impact: "30% Performance Gain",
-            img: "https://plus.unsplash.com/premium_photo-1673306703565-df0489956488?q=80&w=600&auto=format&fit=crop"
+            img: "https://images.unsplash.com/photo-1661956602116-aa6865609028?q=80&w=800&auto=format&fit=crop"
         },
         {
             title: "Enterprise Ledger Automation",
             cat: "AI & Automation",
             impact: "98% Manual Reduction",
-            img: "https://plus.unsplash.com/premium_photo-1672322409559-0111100336ae?q=80&w=600&auto=format&fit=crop"
+            img: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=800&auto=format&fit=crop"
         },
         {
             title: "Deep Fake Detection System",
             cat: "Computer Vision",
             impact: "95% Accuracy Rate",
-            img: "https://plus.unsplash.com/premium_photo-1681488262364-8aeb1b6adc56?q=80&w=600&auto=format&fit=crop"
+            img: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=800&auto=format&fit=crop"
         }
     ];
 
