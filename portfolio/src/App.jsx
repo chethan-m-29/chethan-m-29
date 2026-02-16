@@ -19,7 +19,7 @@ function App() {
       </main>
 
       <footer className="py-20 border-t border-black/10 text-center" id="contact">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-8 lg:px-12">
           <div className="w-16 h-16 rounded-full inbio-shadow flex items-center justify-center mx-auto mb-8 p-1">
             <img src={`${import.meta.env.BASE_URL}portrait.jpg`} alt="C" className="rounded-full shadow-inner" />
           </div>

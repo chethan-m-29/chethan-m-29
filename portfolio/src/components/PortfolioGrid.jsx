@@ -49,7 +49,7 @@ const PortfolioGrid = () => {
 
     return (
         <section id="portfolio" className="section-spacing border-b border-black/10">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-8 lg:px-12">
                 <motion.span
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}

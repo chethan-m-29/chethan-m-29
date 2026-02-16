@@ -19,7 +19,7 @@ const InBioHero = () => {
 
     return (
         <section id="home" className="pt-32 pb-20 border-b border-black/10">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-8 lg:px-12">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                     {/* Left Content */}
                     <div className="w-full lg:w-7/12 space-y-8 text-center lg:text-left order-2 lg:order-1">

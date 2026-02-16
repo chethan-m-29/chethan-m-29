@@ -20,7 +20,7 @@ const Skills = () => {
 
     return (
         <section id="skills" className="section-spacing border-b border-black/10 overflow-hidden">
-            <div className="container mx-auto px-6 text-center">
+            <div className="container mx-auto px-8 lg:px-12 text-center">
                 <motion.span
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
