@@ -62,14 +62,21 @@ const Cursor = () => {
                 style={{ x: mouseX, y: mouseY }}
             />
 
+            {/* Glow Effect - "Lights up" the area */}
+            <motion.div
+                className="fixed top-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,rgba(255,1,79,0.15),transparent_70%)] rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none z-[-1]"
+                style={{ x: springX, y: springY }}
+            />
+
             {/* Trailing Ring - Smooth Spring Follow */}
             <motion.div
-                className="fixed top-0 left-0 w-10 h-10 border border-accent/50 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none box-border"
+                className="fixed top-0 left-0 w-12 h-12 border border-accent/80 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none box-border backdrop-blur-[1px]"
                 style={{ x: springX, y: springY }}
                 animate={{
                     scale: isHovered ? 1.5 : 1,
                     backgroundColor: isHovered ? "rgba(255, 1, 79, 0.1)" : "transparent",
-                    borderColor: isHovered ? "transparent" : "rgba(255, 1, 79, 0.5)"
+                    borderColor: isHovered ? "rgba(255, 1, 79, 0.2)" : "rgba(255, 1, 79, 0.8)",
+                    borderWidth: isHovered ? "1px" : "2px"
                 }}
                 transition={{ duration: 0.2 }}
             />
