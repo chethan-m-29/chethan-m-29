@@ -1,16 +1,23 @@
-## Hi there 👋
+Hi! I'm Chethan M 👋
 
-<!--
-**chethan-m-29/chethan-m-29** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  
 
-Here are some ideas to get you started:
+ Technical DNA
+Architecting high-performance digital systems at PromptIQ AI Technology. I specialize in building enterprise-grade automation and e-commerce platforms that translate complex business needs into elegant software solutions.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🛠️ Current Focus: Scaling E-Commerce Infrastructure & AI Automation pipelines.
+🏗️ Professional Journey: Senior Full Stack Developer (PromptIQ) | Ex-Backend Intern (Varcon's Tech).
+🎓 Education: B.E. Computer Science (CGPA: 8.0).
+🧪 R&D: Computer Vision specialist (95% Accuracy Deep Fake Detection Systems).
+💻 My Core Stack
+    
+
+📊 Performance Metrics (Live)
+GitHub Stats
+Top Langs
+
+📬 Connect with Me
+ 
+
+ 
+
