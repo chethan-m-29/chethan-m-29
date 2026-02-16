@@ -22,9 +22,9 @@ const InBioHero = () => {
             <div className="container mx-auto px-8 lg:px-12">
                 <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
                     {/* Left Content */}
-                    <div className="w-full lg:w-7/12 space-y-6 text-center lg:text-left order-2 lg:order-1">
+                    <div className="w-full lg:w-7/12 space-y-7 text-center lg:text-left order-2 lg:order-1">
                         <span className="text-xs uppercase tracking-[0.3em] font-medium text-[#c4cfde] block">Welcome to my world</span>
-                        <h1 className="text-3xl md:text-4xl lg:text-6xl font-black text-white leading-tight">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight">
                             Hi, I'm <span className="text-accent">Chethan M</span><br />
                             <span className="text-white">Full Stack AI Engineer.</span>
                         </h1>
@@ -33,15 +33,15 @@ const InBioHero = () => {
                         </p>
 
                         {/* Skills with Labels - Moved up */}
-                        <div className="space-y-4 pt-4">
-                            <span className="text-[10px] uppercase tracking-widest font-bold text-[#c4cfde] block">Best skill on</span>
-                            <div className="flex flex-wrap gap-x-4 gap-y-4 justify-center lg:justify-start">
+                        <div className="space-y-5 pt-5">
+                            <span className="text-xs uppercase tracking-widest font-bold text-[#c4cfde] block">Best skill on</span>
+                            <div className="flex flex-wrap gap-x-5 gap-y-5 justify-center lg:justify-start">
                                 {skillIcons.map((skill, i) => (
-                                    <div key={i} className="flex flex-col items-center gap-1.5">
-                                        <div className="icon-box-sm">
-                                            <skill.Icon size={18} className={skill.color || ""} />
+                                    <div key={i} className="flex flex-col items-center gap-2">
+                                        <div className="icon-box">
+                                            <skill.Icon size={20} className={skill.color || ""} />
                                         </div>
-                                        <span className="text-[10px] uppercase font-bold tracking-widest text-[#878e99]">
+                                        <span className="text-[9px] uppercase font-bold tracking-widest text-[#878e99]">
                                             {skill.label}
                                         </span>
                                     </div>
@@ -51,9 +51,9 @@ const InBioHero = () => {
                     </div>
 
                     {/* Right Column - Image + Social Links */}
-                    <div className="w-full lg:w-5/12 relative order-1 lg:order-2 mb-12 lg:mb-0 flex flex-col items-center gap-6">
+                    <div className="w-full lg:w-5/12 relative order-1 lg:order-2 mb-12 lg:mb-0 flex flex-col items-center gap-7">
                         {/* Portrait - Vertically Centered */}
-                        <div className="inbio-shadow rounded-2xl overflow-hidden relative z-10 bg-[#212428] aspect-[4/5] max-w-[380px] w-full">
+                        <div className="inbio-shadow rounded-2xl overflow-hidden relative z-10 bg-[#212428] aspect-[4/5] max-w-[420px] w-full">
                             <img
                                 src={`${import.meta.env.BASE_URL}portrait.jpg`}
                                 alt="Chethan M"
@@ -62,9 +62,9 @@ const InBioHero = () => {
                         </div>
 
                         {/* Social Links - Below Image */}
-                        <div className="space-y-4">
-                            <span className="text-[10px] uppercase tracking-widest font-bold text-[#c4cfde] block text-center">Find with me</span>
-                            <div className="flex gap-4 justify-center">
+                        <div className="space-y-5">
+                            <span className="text-xs uppercase tracking-widest font-bold text-[#c4cfde] block text-center">Find with me</span>
+                            <div className="flex gap-5 justify-center">
                                 {socialLinks.map((social, i) => (
                                     <a key={i} href={social.href} className="icon-box" target="_blank" rel="noopener noreferrer">
                                         <social.Icon size={20} />
