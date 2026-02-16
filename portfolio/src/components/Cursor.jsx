@@ -55,7 +55,7 @@ const Cursor = () => {
     }, []);
 
     return (
-        <div className="hidden lg:block pointer-events-none fixed inset-0 z-[9999] overflow-hidden">
+        <div className="hidden lg:block pointer-events-none fixed inset-0 z-[9999] overflow-hidden mix-blend-difference">
             {/* Main Dot - Instant Follow */}
             <motion.div
                 className="fixed top-0 left-0 w-2.5 h-2.5 bg-accent rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
@@ -64,7 +64,7 @@ const Cursor = () => {
 
             {/* Glow Effect - "Lights up" the area */}
             <motion.div
-                className="fixed top-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,rgba(255,1,79,0.15),transparent_70%)] rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none z-[-1]"
+                className="fixed top-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,rgba(255,1,79,0.15),transparent_70%)] rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none z-[-1] mix-blend-screen"
                 style={{ x: springX, y: springY }}
             />
 
