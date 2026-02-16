@@ -32,49 +32,46 @@ const InBioHero = () => {
                             I architect high-performance <span className="text-white font-medium">Agentic AI</span> systems and <span className="text-white font-medium">RAG</span> pipelines at <span className="text-white">PromptIQ AI Technology</span>. I specialize in building enterprise-grade LLM solutions and <span className="text-white font-medium">FastAPI</span> backends that translate complex intelligence needs into scalable software.
                         </p>
 
-                        <div className="flex flex-col md:flex-row gap-12 pt-10 justify-center lg:justify-start">
-                            {/* Social Links */}
-                            <div className="space-y-6">
-                                <span className="text-xs uppercase tracking-widest font-bold text-[#c4cfde] block">Find with me</span>
-                                <div className="flex gap-5 justify-center lg:justify-start">
-                                    {socialLinks.map((social, i) => (
-                                        <a key={i} href={social.href} className="icon-box" target="_blank" rel="noopener noreferrer">
-                                            <social.Icon size={20} />
-                                        </a>
-                                    ))}
-                                </div>
-                            </div>
-
-                            {/* Skills with Labels */}
-                            <div className="space-y-6">
-                                <span className="text-xs uppercase tracking-widest font-bold text-[#c4cfde] block">Best skill on</span>
-                                <div className="flex flex-wrap gap-x-6 gap-y-6 justify-center lg:justify-start">
-                                    {skillIcons.map((skill, i) => (
-                                        <div key={i} className="flex flex-col items-center gap-2">
-                                            <div className="icon-box">
-                                                <skill.Icon size={20} className={skill.color || ""} />
-                                            </div>
-                                            <span className="text-[10px] uppercase font-bold tracking-widest text-[#878e99]">
-                                                {skill.label}
-                                            </span>
+                        {/* Skills with Labels - Moved up */}
+                        <div className="space-y-6 pt-6">
+                            <span className="text-xs uppercase tracking-widest font-bold text-[#c4cfde] block">Best skill on</span>
+                            <div className="flex flex-wrap gap-x-6 gap-y-6 justify-center lg:justify-start">
+                                {skillIcons.map((skill, i) => (
+                                    <div key={i} className="flex flex-col items-center gap-2">
+                                        <div className="icon-box">
+                                            <skill.Icon size={20} className={skill.color || ""} />
                                         </div>
-                                    ))}
-                                </div>
+                                        <span className="text-[10px] uppercase font-bold tracking-widest text-[#878e99]">
+                                            {skill.label}
+                                        </span>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
 
-                    {/* Right Portrait */}
-                    <div className="w-full lg:w-5/12 relative order-1 lg:order-2 mb-12 lg:mb-0">
-                        <div className="inbio-shadow rounded-2xl overflow-hidden relative z-10 bg-[#212428] aspect-[4/5] max-w-[450px] mx-auto">
+                    {/* Right Column - Image + Social Links */}
+                    <div className="w-full lg:w-5/12 relative order-1 lg:order-2 mb-12 lg:mb-0 flex flex-col items-center gap-8">
+                        {/* Portrait - Vertically Centered */}
+                        <div className="inbio-shadow rounded-2xl overflow-hidden relative z-10 bg-[#212428] aspect-[4/5] max-w-[450px] w-full">
                             <img
                                 src={`${import.meta.env.BASE_URL}portrait.jpg`}
                                 alt="Chethan M"
                                 className="w-full h-full object-cover brightness-90 hover:brightness-110 transition-all duration-700 scale-x-[-1]"
                             />
                         </div>
-                        {/* Background Shape */}
-                        <div className="absolute bottom-[-20px] right-[-20px] md:bottom-[-30px] md:right-[-30px] w-full h-full max-w-[450px] mx-auto hidden md:block inbio-shadow rounded-2xl z-0" />
+
+                        {/* Social Links - Below Image */}
+                        <div className="space-y-6">
+                            <span className="text-xs uppercase tracking-widest font-bold text-[#c4cfde] block text-center">Find with me</span>
+                            <div className="flex gap-5 justify-center">
+                                {socialLinks.map((social, i) => (
+                                    <a key={i} href={social.href} className="icon-box" target="_blank" rel="noopener noreferrer">
+                                        <social.Icon size={20} />
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

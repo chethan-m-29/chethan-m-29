@@ -6,9 +6,6 @@ const Navbar = () => {
             <div className="container mx-auto px-8 lg:px-12 h-20 flex items-center justify-between">
                 {/* Logo Section */}
                 <div className="flex items-center gap-3 shrink-0">
-                    <div className="w-10 h-10 rounded-full inbio-shadow flex items-center justify-center p-1 overflow-hidden">
-                        <img src={`${import.meta.env.BASE_URL}portrait.jpg`} alt="C" className="rounded-full shadow-inner scale-x-[-1]" />
-                    </div>
                     <span className="text-xl font-bold tracking-tighter text-white">PORTFOLIO</span>
                 </div>
 
