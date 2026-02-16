@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Parallax from './Parallax';
 
 const Skills = () => {
     const skills = [
@@ -21,23 +22,25 @@ const Skills = () => {
     return (
         <section id="skills" className="section-spacing border-b border-black/10 overflow-hidden">
             <div className="container mx-auto px-8 lg:px-12 text-center">
-                <motion.span
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    className="section-title"
-                >
-                    Technical Palette
-                </motion.span>
-                <motion.h2
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.1 }}
-                    className="section-heading"
-                >
-                    Software & Technologies
-                </motion.h2>
+                <Parallax offset={20}>
+                    <motion.span
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="section-title"
+                    >
+                        Technical Palette
+                    </motion.span>
+                    <motion.h2
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.1 }}
+                        className="section-heading"
+                    >
+                        Software & Technologies
+                    </motion.h2>
+                </Parallax>
 
                 {/* Infinite Sliding Marquee */}
                 <motion.div

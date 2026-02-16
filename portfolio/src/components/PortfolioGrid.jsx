@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart } from 'lucide-react';
+import { Heart, ArrowUpRight } from 'lucide-react';
+import Parallax from './Parallax';
 
 const PortfolioGrid = () => {
     const projects = [
@@ -51,23 +52,25 @@ const PortfolioGrid = () => {
     return (
         <section id="portfolio" className="section-spacing border-b border-black/10">
             <div className="container mx-auto px-8 lg:px-12">
-                <motion.span
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    className="section-title"
-                >
-                    Visit my portfolio and keep your feedback
-                </motion.span>
-                <motion.h2
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.1 }}
-                    className="section-heading"
-                >
-                    Projects
-                </motion.h2>
+                <Parallax offset={20}>
+                    <motion.span
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="section-title"
+                    >
+                        Visit my portfolio and keep your feedback
+                    </motion.span>
+                    <motion.h2
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.1 }}
+                        className="section-heading"
+                    >
+                        Projects
+                    </motion.h2>
+                </Parallax>
 
                 <motion.div
                     variants={containerVariants}
@@ -77,31 +80,32 @@ const PortfolioGrid = () => {
                     className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10"
                 >
                     {projects.map((p, i) => (
-                        <motion.div
-                            key={i}
-                            variants={itemVariants}
-                            whileHover={{ y: -10 }}
-                            className="inbio-card group p-3 md:p-5"
-                        >
-                            <div className="relative aspect-[5/4] rounded-xl overflow-hidden mb-3 md:mb-6">
-                                <img
-                                    src={p.img}
-                                    alt={p.title}
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                />
-                            </div>
-
-                            <div className="hidden md:flex justify-between items-center mb-4">
-                                <span className="text-xs font-bold text-accent uppercase tracking-widest">{p.cat}</span>
-                                <div className="flex items-center gap-1.5 text-white/50 text-xs">
-                                    <span className="font-bold text-white/80">{p.impact}</span>
+                        <Parallax key={i} offset={i % 2 === 0 ? 0 : 40} className="h-full">
+                            <motion.div
+                                variants={itemVariants}
+                                whileHover={{ y: -10 }}
+                                className="inbio-card group p-3 md:p-5 h-full"
+                            >
+                                <div className="relative aspect-[5/4] rounded-xl overflow-hidden mb-3 md:mb-6">
+                                    <img
+                                        src={p.img}
+                                        alt={p.title}
+                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    />
                                 </div>
-                            </div>
 
-                            <h3 className="text-sm md:text-2xl font-bold leading-tight group-hover:text-accent transition-colors cursor-pointer">
-                                {p.title}
-                            </h3>
-                        </motion.div>
+                                <div className="hidden md:flex justify-between items-center mb-4">
+                                    <span className="text-xs font-bold text-accent uppercase tracking-widest">{p.cat}</span>
+                                    <div className="flex items-center gap-1.5 text-white/50 text-xs">
+                                        <span className="font-bold text-white/80">{p.impact}</span>
+                                    </div>
+                                </div>
+
+                                <h3 className="text-sm md:text-2xl font-bold leading-tight group-hover:text-accent transition-colors cursor-pointer">
+                                    {p.title}
+                                </h3>
+                            </motion.div>
+                        </Parallax>
                     ))}
                 </motion.div>
             </div>

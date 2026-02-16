@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Parallax from './Parallax';
 
 const Resume = () => {
     const experiences = [
@@ -41,23 +42,25 @@ const Resume = () => {
     return (
         <section id="resume" className="section-spacing border-b border-black/10">
             <div className="container mx-auto px-8 lg:px-12">
-                <motion.span
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    className="section-title"
-                >
-                    Professional Trajectory
-                </motion.span>
-                <motion.h2
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.1 }}
-                    className="section-heading"
-                >
-                    Experience
-                </motion.h2>
+                <Parallax offset={20}>
+                    <motion.span
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="section-title"
+                    >
+                        Professional Trajectory
+                    </motion.span>
+                    <motion.h2
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.1 }}
+                        className="section-heading"
+                    >
+                        Experience
+                    </motion.h2>
+                </Parallax>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     {/* Experience Column */}
