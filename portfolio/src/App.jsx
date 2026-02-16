@@ -21,7 +21,7 @@ function App() {
       <footer className="py-20 border-t border-black/10 text-center" id="contact">
         <div className="container mx-auto px-6">
           <div className="w-16 h-16 rounded-full inbio-shadow flex items-center justify-center mx-auto mb-8 p-1">
-            <img src="/portrait.jpg" alt="C" className="rounded-full shadow-inner" />
+            <img src={`${import.meta.env.BASE_URL}portrait.jpg`} alt="C" className="rounded-full shadow-inner" />
           </div>
           <h3 className="text-2xl font-bold text-white mb-4 uppercase tracking-[0.2em]">CHETHAN M</h3>
           <p className="text-[#878e99] text-sm tracking-widest uppercase mb-8">

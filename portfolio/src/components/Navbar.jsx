@@ -7,14 +7,14 @@ const Navbar = () => {
                 {/* Logo Section */}
                 <div className="flex items-center gap-3 shrink-0">
                     <div className="w-10 h-10 rounded-full inbio-shadow flex items-center justify-center p-1 overflow-hidden">
-                        <img src="/portrait.jpg" alt="C" className="rounded-full shadow-inner scale-x-[-1]" />
+                        <img src={`${import.meta.env.BASE_URL}portrait.jpg`} alt="C" className="rounded-full shadow-inner scale-x-[-1]" />
                     </div>
                     <span className="text-xl font-bold tracking-tighter text-white">INBIO</span>
                 </div>
 
                 {/* Navigation Section */}
                 <div className="flex items-center gap-4 md:gap-10">
-                    <a href="/Chethan_M_Resume.pdf" download="Chethan_M_Resume.pdf" className="text-xs uppercase font-medium tracking-widest text-[#c4cfde] hover:text-accent transition-all hidden sm:block">
+                    <a href={`${import.meta.env.BASE_URL}Chethan_M_Resume.pdf`} download="Chethan_M_Resume.pdf" className="text-xs uppercase font-medium tracking-widest text-[#c4cfde] hover:text-accent transition-all hidden sm:block">
                         Resume
                     </a>
 

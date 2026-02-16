@@ -68,7 +68,7 @@ const InBioHero = () => {
                     <div className="w-full lg:w-5/12 relative order-1 lg:order-2 mb-12 lg:mb-0">
                         <div className="inbio-shadow rounded-2xl overflow-hidden relative z-10 bg-[#212428] aspect-[4/5] max-w-[450px] mx-auto">
                             <img
-                                src="/portrait.jpg"
+                                src={`${import.meta.env.BASE_URL}portrait.jpg`}
                                 alt="Chethan M"
                                 className="w-full h-full object-cover brightness-90 hover:brightness-110 transition-all duration-700 scale-x-[-1]"
                             />
