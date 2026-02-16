@@ -18,28 +18,28 @@ const InBioHero = () => {
     ];
 
     return (
-        <section id="home" className="pt-32 pb-20 border-b border-black/10">
+        <section id="home" className="pt-28 pb-16 border-b border-black/10">
             <div className="container mx-auto px-8 lg:px-12">
-                <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
                     {/* Left Content */}
-                    <div className="w-full lg:w-7/12 space-y-8 text-center lg:text-left order-2 lg:order-1">
-                        <span className="text-sm uppercase tracking-[0.3em] font-medium text-[#c4cfde] block">Welcome to my world</span>
-                        <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white leading-tight">
+                    <div className="w-full lg:w-7/12 space-y-6 text-center lg:text-left order-2 lg:order-1">
+                        <span className="text-xs uppercase tracking-[0.3em] font-medium text-[#c4cfde] block">Welcome to my world</span>
+                        <h1 className="text-3xl md:text-4xl lg:text-6xl font-black text-white leading-tight">
                             Hi, I'm <span className="text-accent">Chethan M</span><br />
                             <span className="text-white">Full Stack AI Engineer.</span>
                         </h1>
-                        <p className="text-[#878e99] text-base md:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0 font-light">
+                        <p className="text-[#878e99] text-sm md:text-base leading-relaxed max-w-2xl mx-auto lg:mx-0 font-light">
                             I architect high-performance <span className="text-white font-medium">Agentic AI</span> systems and <span className="text-white font-medium">RAG</span> pipelines at <span className="text-white">PromptIQ AI Technology</span>. I specialize in building enterprise-grade LLM solutions and <span className="text-white font-medium">FastAPI</span> backends that translate complex intelligence needs into scalable software.
                         </p>
 
                         {/* Skills with Labels - Moved up */}
-                        <div className="space-y-6 pt-6">
-                            <span className="text-xs uppercase tracking-widest font-bold text-[#c4cfde] block">Best skill on</span>
-                            <div className="flex flex-wrap gap-x-6 gap-y-6 justify-center lg:justify-start">
+                        <div className="space-y-4 pt-4">
+                            <span className="text-[10px] uppercase tracking-widest font-bold text-[#c4cfde] block">Best skill on</span>
+                            <div className="flex flex-wrap gap-x-4 gap-y-4 justify-center lg:justify-start">
                                 {skillIcons.map((skill, i) => (
-                                    <div key={i} className="flex flex-col items-center gap-2">
-                                        <div className="icon-box">
-                                            <skill.Icon size={20} className={skill.color || ""} />
+                                    <div key={i} className="flex flex-col items-center gap-1.5">
+                                        <div className="icon-box-sm">
+                                            <skill.Icon size={18} className={skill.color || ""} />
                                         </div>
                                         <span className="text-[10px] uppercase font-bold tracking-widest text-[#878e99]">
                                             {skill.label}
@@ -51,9 +51,9 @@ const InBioHero = () => {
                     </div>
 
                     {/* Right Column - Image + Social Links */}
-                    <div className="w-full lg:w-5/12 relative order-1 lg:order-2 mb-12 lg:mb-0 flex flex-col items-center gap-8">
+                    <div className="w-full lg:w-5/12 relative order-1 lg:order-2 mb-12 lg:mb-0 flex flex-col items-center gap-6">
                         {/* Portrait - Vertically Centered */}
-                        <div className="inbio-shadow rounded-2xl overflow-hidden relative z-10 bg-[#212428] aspect-[4/5] max-w-[450px] w-full">
+                        <div className="inbio-shadow rounded-2xl overflow-hidden relative z-10 bg-[#212428] aspect-[4/5] max-w-[380px] w-full">
                             <img
                                 src={`${import.meta.env.BASE_URL}portrait.jpg`}
                                 alt="Chethan M"
@@ -62,9 +62,9 @@ const InBioHero = () => {
                         </div>
 
                         {/* Social Links - Below Image */}
-                        <div className="space-y-6">
-                            <span className="text-xs uppercase tracking-widest font-bold text-[#c4cfde] block text-center">Find with me</span>
-                            <div className="flex gap-5 justify-center">
+                        <div className="space-y-4">
+                            <span className="text-[10px] uppercase tracking-widest font-bold text-[#c4cfde] block text-center">Find with me</span>
+                            <div className="flex gap-4 justify-center">
                                 {socialLinks.map((social, i) => (
                                     <a key={i} href={social.href} className="icon-box" target="_blank" rel="noopener noreferrer">
                                         <social.Icon size={20} />
