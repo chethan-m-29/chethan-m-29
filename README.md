@@ -1,129 +1,65 @@
+<!-- ========================= --> <!-- FUTURISTIC AI --> <!-- ========================= --> <h1 align="center">⚡ Chethan M</h1> <p align="center"> <b>Full Stack Developer · AI Automation Engineer · System Architect</b> </p> <p align="center"> <i>Building intelligent systems, scalable platforms, and automation-first software</i> </p>
+🧠 SYSTEM PROFILE
+name: Chethan M
+role: Full Stack Developer
+current_company: PromptIQ AI Technology
+focus:
+  - Enterprise Automation
+  - AI-Driven Workflows
+  - Scalable E-Commerce Systems
+stack:
+  - React
+  - Node.js
+  - Express
+  - PostgreSQL
+  - Python
+  - Django
 
-There should be **NO triple backticks anywhere** in the file.
+🤖 AI + ENGINEERING FOCUS
 
----
+Designing AI-assisted automation pipelines
 
-## ✅ FINAL CORRECT README (RENDERING VERSION)
-> Copy-paste **everything below exactly**, starting from `<p align="center">`  
-> ⚠️ Do NOT wrap it in backticks
+Building event-driven backend architectures
 
----
+Scaling high-throughput e-commerce systems
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,100:1f2933&height=120&section=header&text=Chethan%20M&fontSize=42&fontColor=ffffff&fontAlignY=50" />
-</p>
+Optimizing APIs for low-latency & reliability
 
-<p align="center">
-  <strong>Full Stack Developer · Automation Engineer · System Builder</strong>
-</p>
+Bridging ML systems with production software
 
-<p align="center">
-  Architecting scalable systems, enterprise automation, and high-performance web platforms
-</p>
+🧬 EXPERIENCE LOGS
+▸ PromptIQ AI Technology — Senior Full Stack Developer
 
----
+Architected and scaled enterprise automation platforms
 
-## 👋 About Me
+Built AI-integrated e-commerce systems using React, Node.js, Express, PostgreSQL
 
-I’m **Chethan M**, a Full Stack Developer at **PromptIQ AI Technology**, focused on building **enterprise-grade automation systems** and **scalable e-commerce platforms**.  
-I enjoy working at the intersection of **backend architecture, performance optimization, and clean UI/UX**.
+Designed secure REST APIs, authentication layers, and optimized data pipelines
 
-- 🚀 Scaling e-commerce infrastructure & AI automation pipelines  
-- 🏗️ Building production-ready full-stack systems  
-- 🧠 Strong interest in system design and performance engineering  
+▸ Varcon’s Technologies Pvt. Ltd. — Backend Intern
 
----
+Developed Django-based production systems
 
-## 🧬 Technical DNA
+Implemented backend workflows and database logic
 
-- Systems-first thinking  
-- Performance & scalability focused  
-- Clean architecture over quick hacks  
-- Product-driven engineering  
+🧪 R&D MODULES
+🔬 Deep Fake Video Detection System
 
----
+Computer Vision–based detection pipeline
 
-## 🏗️ Professional Experience
+95% accuracy using facial landmarks, temporal inconsistencies, and ML techniques
 
-### **PromptIQ AI Technology** — *Senior Full Stack Developer*
-- Architected and scaled enterprise automation platforms  
-- Built high-performance e-commerce systems using **React, Node.js, Express, PostgreSQL**  
-- Designed secure REST APIs, authentication layers, and optimized data pipelines  
+Real-time video inference interface
 
-### **Varcon’s Technologies Pvt. Ltd.** — *Backend Intern*
-- Developed Django-based production applications  
-- Implemented backend workflows and database logic for real-world use cases  
+⚙️ TECH MATRIX
+<p align="center"> <img src="https://skillicons.dev/icons?i=python,javascript,react,nodejs,express,django,postgres,git,html,css,figma" /> </p>
+📡 SYSTEM METRICS
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=chethan-m-29&show_icons=true&hide_border=true&theme=tokyonight" height="160"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chethan-m-29&layout=compact&hide_border=true&theme=tokyonight" height="160"/> </p>
+🎓 KNOWLEDGE BASE
 
----
+B.E. in Computer Science
+CGPA: 8.0
 
-## 🧪 Research & Development
-
-### **Deep Fake Video Detection System**
-- Computer Vision–based detection pipeline  
-- Achieved **95% accuracy** using facial landmarks, frame inconsistency analysis, and ML techniques  
-- Built an interface for real-time video analysis  
-
----
-
-## 💻 Core Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,react,nodejs,express,django,postgres,git,html,css,figma" />
-</p>
-
----
-
-## 📊 GitHub Performance
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chethan-m-29&show_icons=true&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chethan-m-29&layout=compact&hide_border=true" height="165" />
-</p>
-
----
-
-## 🎓 Education
-
-**B.E. in Computer Science**  
-CGPA: **8.0**
-
----
-
-## 📬 Connect With Me
-
-<p align="center">
-  <a href="mailto:chethanm2901@gmail.com">
-    <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/chethan-m29">
-    <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/chethan-m-29">
-    <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
-
----
-
-<p align="center">
-  <em>“Build systems that scale. Automate what matters. Keep it clean.”</em>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f2933,100:111827&height=80&section=footer" />
-</p>
-
----
-
-## ✅ After this
-- Refresh your profile page
-- The icons, banners, and stats **will render correctly**
-- Your profile will look **clean, modern, and recruiter-ready**
-
-If you want next:
-- ⚡ animated typing headline  
-- ⚫ full dark-mode optimization  
-- 🧩 project cards with screenshots  
-- 🌐 same design converted into a portfolio website  
-
-Just tell me — we’re already 90% elite 🚀
+📬 COMMUNICATION CHANNELS
+<p align="center"> <a href="mailto:chethanm2901@gmail.com"> <img src="https://img.shields.io/badge/Email-00E5FF?style=for-the-badge&logo=gmail&logoColor=black"/> </a> <a href="https://www.linkedin.com/in/chethan-m29"> <img src="https://img.shields.io/badge/LinkedIn-00E5FF?style=for-the-badge&logo=linkedin&logoColor=black"/> </a> <a href="https://github.com/chethan-m-29"> <img src="https://img.shields.io/badge/GitHub-00E5FF?style=for-the-badge&logo=github&logoColor=black"/> </a> </p>
+<p align="center"> <b style="color:#00E5FF;">SYSTEM STATUS:</b> <i>ONLINE · LEARNING · BUILDING</i> </p>
