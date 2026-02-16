@@ -11,7 +11,7 @@ const Navbar = () => {
 
                 {/* Navigation Section */}
                 <div className="flex items-center gap-4 md:gap-10">
-                    <a href={`${import.meta.env.BASE_URL}Chethan_M_Resume.pdf`} download="Chethan_M_Resume.pdf" className="text-xs uppercase font-medium tracking-widest text-[#c4cfde] hover:text-accent transition-all hidden sm:block">
+                    <a href={`${import.meta.env.BASE_URL}Chethan_M_Resume.pdf`} download="Chethan_M_Resume.pdf" className="text-xs uppercase font-medium tracking-widest text-[#c4cfde] hover:text-accent transition-all">
                         Resume
                     </a>
 
