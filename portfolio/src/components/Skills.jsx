@@ -40,7 +40,13 @@ const Skills = () => {
                 </motion.h2>
 
                 {/* Infinite Sliding Marquee */}
-                <div className="relative mt-16">
+                <motion.div
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                    className="relative mt-16"
+                >
                     <motion.div
                         className="flex gap-10"
                         animate={{
@@ -70,7 +76,7 @@ const Skills = () => {
                             </div>
                         ))}
                     </motion.div>
-                </div>
+                </motion.div>
             </div>
         </section>
     );

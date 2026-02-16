@@ -98,7 +98,19 @@ const InBioHero = () => {
                         initial={{ opacity: 0, scale: 0.8 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
-                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                        animate={{
+                            y: [0, -20, 0]
+                        }}
+                        transition={{
+                            duration: 0.8,
+                            ease: "easeOut",
+                            delay: 0.2,
+                            y: {
+                                repeat: Infinity,
+                                duration: 6,
+                                ease: "easeInOut"
+                            }
+                        }}
                         className="w-full lg:w-5/12 relative order-1 lg:order-2 mb-12 lg:mb-0"
                     >
                         {/* Portrait - Vertically Centered */}
