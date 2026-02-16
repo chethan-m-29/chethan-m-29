@@ -84,7 +84,7 @@ const Features = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, margin: "-100px" }}
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+                    className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10"
                 >
                     {features.map((f, i) => (
                         <motion.div
