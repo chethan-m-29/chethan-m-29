@@ -80,9 +80,9 @@ const PortfolioGrid = () => {
                             key={i}
                             variants={itemVariants}
                             whileHover={{ y: -10 }}
-                            className="inbio-card group p-6"
+                            className="inbio-card group p-3 md:p-6"
                         >
-                            <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-8">
+                            <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-3 md:mb-8">
                                 <img
                                     src={p.img}
                                     alt={p.title}
@@ -90,14 +90,14 @@ const PortfolioGrid = () => {
                                 />
                             </div>
 
-                            <div className="flex justify-between items-center mb-4">
+                            <div className="hidden md:flex justify-between items-center mb-4">
                                 <span className="text-xs font-bold text-accent uppercase tracking-widest">{p.cat}</span>
                                 <div className="flex items-center gap-1.5 text-white/50 text-xs">
                                     <span className="font-bold text-white/80">{p.impact}</span>
                                 </div>
                             </div>
 
-                            <h3 className="text-2xl font-bold leading-tight group-hover:text-accent transition-colors cursor-pointer">
+                            <h3 className="text-sm md:text-2xl font-bold leading-tight group-hover:text-accent transition-colors cursor-pointer">
                                 {p.title}
                             </h3>
                         </motion.div>
