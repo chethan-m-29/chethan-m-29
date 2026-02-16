@@ -8,8 +8,14 @@ const Parallax = ({ children, offset = 50, className = "" }) => {
         offset: ["start end", "end start"]
     });
 
-    const y = useTransform(scrollYProgress, [0, 1], [offset, -offset]);
-    const rotate = useTransform(scrollYProgress, [0, 1], [0, offset / 20]); // Slight rotation based on offset
+    // [0, 1] maps to viewport [start end, end start]
+    // 0-30%: Float in
+    // 30-70%: Lock to grid (0 offset)
+    // 70-100%: Float out
+    const y = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [offset, 0, 0, -offset]);
+
+    // Rotation also plateaus
+    const rotate = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0, 0, 0, offset / 20]);
 
     return (
         <div ref={ref} className={className}>
