@@ -32,7 +32,7 @@ const InBioHero = () => {
                             I architect high-performance <span className="text-white font-medium">Agentic AI</span> systems and <span className="text-white font-medium">RAG</span> pipelines at <span className="text-white">PromptIQ AI Technology</span>. I specialize in building enterprise-grade LLM solutions and <span className="text-white font-medium">FastAPI</span> backends that translate complex intelligence needs into scalable software.
                         </p>
 
-                        <div className="flex flex-col md:flex-row gap-12 pt-10 justify-center lg:justify-start">
+                        <div className="flex flex-col md:flex-row gap-12 pt-4 justify-center lg:justify-start">
                             {/* Social Links */}
                             <div className="space-y-6">
                                 <span className="text-xs uppercase tracking-widest font-bold text-[#c4cfde] block">Find with me</span>

@@ -90,13 +90,13 @@ const Features = () => {
                         <motion.div
                             key={i}
                             variants={itemVariants}
-                            className="inbio-card group hover:bg-gradient-to-br from-accent to-[#ff014f]/80"
+                            className="inbio-card group hover:bg-gradient-to-br from-accent to-[#ff014f]/80 p-4 md:p-10"
                         >
-                            <div className="mb-8 text-accent group-hover:text-white transition-colors">
-                                <f.Icon size={40} strokeWidth={1} />
+                            <div className="mb-3 md:mb-8 text-accent group-hover:text-white transition-colors">
+                                <f.Icon className="w-8 h-8 md:w-10 md:h-10" strokeWidth={1} />
                             </div>
-                            <h3 className="text-2xl font-bold mb-5 group-hover:text-white transition-colors">{f.title}</h3>
-                            <p className="text-lg text-[#878e99] group-hover:text-white/80 transition-colors leading-relaxed">
+                            <h3 className="text-sm md:text-2xl font-bold mb-0 md:mb-5 group-hover:text-white transition-colors">{f.title}</h3>
+                            <p className="text-lg text-[#878e99] group-hover:text-white/80 transition-colors leading-relaxed hidden md:block">
                                 {f.desc}
                             </p>
                         </motion.div>
