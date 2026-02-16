@@ -1,67 +1,77 @@
-<h1 align="center">👋 Chethan M ⚡</h1> <p align="center"> <b>AI Automation Engineer · Full Stack Developer · System Architect</b> </p> <p align="center"> <i>Building intelligent systems · scaling platforms · automating reality</i> </p>
-🌌 My Vibe Statement
+<div align="center">
 
-From architecting enterprise automation pipelines to scaling e-commerce systems,
-I build software like a systems engineer with an AI mindset.
-Clean code. Smart automation. Relentless iteration. ⚙️🤖
+# 👋 Chethan M! 🚀 ✨
 
-🧬 Tech Stack & Arsenal
-<p align="center"> <img src="https://skillicons.dev/icons?i=python,javascript,react,nodejs,express,django,postgres,git,html,css,figma" /> </p>
-🧠 System Profile
-codename: Chethan-M
-role: Senior Full Stack Developer
-org: PromptIQ AI Technology
-core_focus:
-  - Enterprise Automation
-  - AI-assisted Workflows
-  - High-Performance E-Commerce
-specialization:
-  - REST API Architecture
-  - Backend Optimization
-  - UI/UX Engineering
+*Architecting enterprise AI 🤖 | Mastering Full Stack 💻 | Charting system logic like a pro 📈*
 
-🏗️ Experience Logs
-⚡ PromptIQ AI Technology — Senior Full Stack Developer
+A Python-slinging, backend-architecting, system-loving engineer on a quest to conquer code and efficiency! 🚀
 
-Architected and scaled enterprise automation platforms
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="120" height="120"/>
 
-Built high-performance e-commerce systems using React, Node.js, Express, PostgreSQL
+</div>
 
-Designed secure REST APIs, authentication layers, and optimized data pipelines
+---
 
-🧩 Varcon’s Technologies Pvt. Ltd. — Backend Intern
+### 🎧 My Vibe Statement
 
-Developed Django-based production applications
+✨ 🏗️ 📊 🧪 = **Ultimate Flow State**
 
-Implemented backend workflows and database logic for real-world use cases
+From slicing through backend architecture with precision to backtesting enterprise automation strategies, I'm always chasing the next level of system efficiency. Add a lo-fi coding OST, and I'm unstoppable. Let's build, automate, and vibe! 🚀
 
-🧪 R&D Lab
-🔬 Deep Fake Video Detection System
+---
 
-Computer Vision–based detection pipeline
+### 🚀 Tech Stack & Arsenal
 
-Achieved 95% accuracy using facial landmarks, frame inconsistency analysis, and ML techniques
+My toolkit for coding, architecting, and slaying projects:
 
-Built an interface for real-time video analysis
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" alt="django" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/>
+</p>
 
-📊 GitHub Stats & Grid
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=chethan-m-29&show_icons=true&hide_border=true&theme=tokyonight" height="160"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chethan-m-29&layout=compact&hide_border=true&theme=tokyonight" height="160"/> </p>
-🧭 Epic Projects & Quests
+---
 
-🚀 Enterprise Automation Platform
-AI-assisted workflows reducing manual operations at scale
+### 📈 GitHub Stats & Grind
 
-🛒 E-Commerce Infrastructure
-High-throughput system with secure auth, analytics, and order lifecycle management
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=chethan-m-29&show_icons=true&theme=dark&hide_border=true&title_color=ff014f&icon_color=ff014f&text_color=c4cfde&bg_color=161b22" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chethan-m-29&theme=dark&hide_border=true&stroke=ff014f&ring=ff014f&fire=ff014f&currStreakLabel=ff014f" alt="Streak Stats" />
+</p>
 
-🎭 Deep Fake Detection Engine
-ML-powered video authenticity system with real-time inference
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chethan-m-29&layout=compact&theme=dark&hide_border=true&title_color=ff014f&icon_color=ff014f&text_color=c4cfde&bg_color=161b22" alt="Top Langs" />
+</p>
 
-🎓 Knowledge Base
+---
 
-B.E. in Computer Science
-CGPA: 8.0
+### 🧪 Epic Projects & Quests
 
-📡 Let’s Team Up
-<p align="center"> <a href="mailto:chethanm2901@gmail.com"> <img src="https://img.shields.io/badge/Email-00E5FF?style=for-the-badge&logo=gmail&logoColor=black"/> </a> <a href="https://www.linkedin.com/in/chethan-m29"> <img src="https://img.shields.io/badge/LinkedIn-00E5FF?style=for-the-badge&logo=linkedin&logoColor=black"/> </a> <a href="https://github.com/chethan-m-29"> <img src="https://img.shields.io/badge/GitHub-00E5FF?style=for-the-badge&logo=github&logoColor=black"/> </a> </p>
-<p align="center"> <b>⚙️ SYSTEM STATUS:</b> <i>ONLINE · BUILDING · EVOLVING</i> </p>
+- 🛒 **E-Commerce Scaling** 🏗️: Architected high-performance infrastructure for PromptIQ AI.
+- 📊 **Enterprise Ledger Auto** 🤖: Reduced manual work by 98% via intelligent automation.
+- 👁️ **Deep Fake Detection** 🧪: R&D project achieving 95% accuracy in facial inconsistency detection.
+- 🎮 **Pacman_game** 🕹️: Interactive Python logic implementation and game design.
+- 🤖 **Company_chatbot** 💬: Natural language processing integration for automated support.
+
+---
+
+### 🎯 My Mission & Endgame
+
+- 🏗️ **Grinding Now:** Mastering AI x Backend Architecture for next-gen enterprise systems.
+- 🚀 **Ultimate Quest:** Build a fully autonomous system architecture for massive scale.
+- ⚡ **Side Quests:** Sharpening trading algorithms and exploring the cutting edge of Web3.
+
+---
+
+### 🤝 Let's Team Up!
+
+Ready to vibe on code, architecture, or automation? Hit me up! 🚀
+
+<p align="left">
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:chethan@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
