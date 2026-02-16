@@ -1,77 +1,64 @@
 <div align="center">
 
-# 👋 Chethan M! 🚀 ✨
+# 🚀 Chethan M
 
-*Architecting enterprise AI 🤖 | Mastering Full Stack 💻 | Charting system logic like a pro 📈*
+**Senior Full Stack Engineer | System Architect | AI Automation Specialist**
 
-A Python-slinging, backend-architecting, system-loving engineer on a quest to conquer code and efficiency! 🚀
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="120" height="120"/>
+[![PromptIQ AI](https://img.shields.io/badge/Building_At-PromptIQ_AI-ff014f?style=flat-square&logo=openai&logoColor=white)](https://promptiq.ai)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Portfolio](https://img.shields.io/badge/Live-Portfolio-ff014f?style=flat-square&logo=google-chrome&logoColor=white)](http://localhost:5175/)
 
 </div>
 
 ---
 
-### 🎧 My Vibe Statement
+### 🎤 Professional Narrative
 
-✨ 🏗️ 📊 🧪 = **Ultimate Flow State**
+I architect enterprise-grade digital systems that bridge the gap between complex backend logic and seamless user experiences. Currently, I am driving innovation at **PromptIQ AI Technology**, focusing on scalable e-commerce infrastructure and high-efficiency AI automation pipelines.
 
-From slicing through backend architecture with precision to backtesting enterprise automation strategies, I'm always chasing the next level of system efficiency. Add a lo-fi coding OST, and I'm unstoppable. Let's build, automate, and vibe! 🚀
-
----
-
-### 🚀 Tech Stack & Arsenal
-
-My toolkit for coding, architecting, and slaying projects:
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" alt="django" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/>
-</p>
+- 🏗️ **Core Expertise:** End-to-end Full Stack Development & Distributed System Architecture.
+- ⚡ **Impact:** Achieved **98% manual process reduction** via intelligent automation.
+- 🧪 **Research:** Developed Deep Fake Detection models with **95% facial inconsistency accuracy**.
+- 🎓 **Academic:** B.E. Computer Science (CGPA: **8.0**).
 
 ---
 
-### 📈 GitHub Stats & Grind
+### 🛠️ Tech Stack & Arsenal
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chethan-m-29&show_icons=true&theme=dark&hide_border=true&title_color=ff014f&icon_color=ff014f&text_color=c4cfde&bg_color=161b22" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chethan-m-29&theme=dark&hide_border=true&stroke=ff014f&ring=ff014f&fire=ff014f&currStreakLabel=ff014f" alt="Streak Stats" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,django,postgres,docker,py,js,html,css,git,vscode,postman" />
 </p>
+
+---
+
+### 📊 Engineering Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chethan-m-29&layout=compact&theme=dark&hide_border=true&title_color=ff014f&icon_color=ff014f&text_color=c4cfde&bg_color=161b22" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=chethan-m-29&show_icons=true&theme=dark&hide_border=true&title_color=ff014f&icon_color=ff014f&text_color=c4cfde&bg_color=212428" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chethan-m-29&layout=compact&theme=dark&hide_border=true&title_color=ff014f&icon_color=ff014f&text_color=c4cfde&bg_color=212428" alt="Top Langs" />
 </p>
 
 ---
 
-### 🧪 Epic Projects & Quests
+### 📁 Featured Systems & Quests
 
-- 🛒 **E-Commerce Scaling** 🏗️: Architected high-performance infrastructure for PromptIQ AI.
-- 📊 **Enterprise Ledger Auto** 🤖: Reduced manual work by 98% via intelligent automation.
-- 👁️ **Deep Fake Detection** 🧪: R&D project achieving 95% accuracy in facial inconsistency detection.
-- 🎮 **Pacman_game** 🕹️: Interactive Python logic implementation and game design.
-- 🤖 **Company_chatbot** 💬: Natural language processing integration for automated support.
-
----
-
-### 🎯 My Mission & Endgame
-
-- 🏗️ **Grinding Now:** Mastering AI x Backend Architecture for next-gen enterprise systems.
-- 🚀 **Ultimate Quest:** Build a fully autonomous system architecture for massive scale.
-- ⚡ **Side Quests:** Sharpening trading algorithms and exploring the cutting edge of Web3.
+- 🛒 **E-Commerce Scaling** | *High-performance cloud infrastructure for PromptIQ.*
+- 📊 **Enterprise Ledger Auto** | *Automated accounting pipeline reducing overhead by 98%.*
+- 👁️ **Deep Fake Detection** | *R&D Computer Vision project for identity verification.*
+- 🤖 **Company Chatbot** | *NLP-driven support automation with multi-platform integration.*
+- 🕹️ **Pacman Game Engine** | *Advanced logic and state management implementation in Python.*
 
 ---
 
-### 🤝 Let's Team Up!
+### 📫 Let's Collaborate
 
-Ready to vibe on code, architecture, or automation? Hit me up! 🚀
+I'm always open to discussing system architecture, AI research, or full-stack opportunities.
 
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:chethan@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+- 📧 **Direct:** [chethan@example.com](mailto:chethan@example.com)
+- 💼 **Professional:** [LinkedIn Profile](https://linkedin.com/in/YOUR_LINKEDIN)
+- 🌐 **Web:** [chethanm.dev](http://localhost:5175/)
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff014f&height=100&section=footer" width="100%"/>
 </p>
