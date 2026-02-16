@@ -41,8 +41,9 @@ const PortfolioGrid = () => {
             scale: 1,
             y: 0,
             transition: {
-                duration: 0.7,
-                ease: "circOut"
+                duration: 0.9,
+                ease: [0.17, 0.55, 0.55, 1],
+                delay: 0.1
             }
         }
     };
