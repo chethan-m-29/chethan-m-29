@@ -5,10 +5,12 @@ import Features from './components/Features'
 import PortfolioGrid from './components/PortfolioGrid'
 import Skills from './components/Skills'
 import Resume from './components/Resume'
+import Cursor from './components/Cursor'
 
 function App() {
   return (
     <div className="bg-[#212428] min-h-screen">
+      <Cursor />
       <Navbar />
       <main>
         <InBioHero />
