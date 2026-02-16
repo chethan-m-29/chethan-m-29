@@ -81,9 +81,9 @@ const PortfolioGrid = () => {
                             key={i}
                             variants={itemVariants}
                             whileHover={{ y: -10 }}
-                            className="inbio-card group p-3 md:p-6"
+                            className="inbio-card group p-3 md:p-5"
                         >
-                            <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-3 md:mb-8">
+                            <div className="relative aspect-[5/4] rounded-xl overflow-hidden mb-3 md:mb-6">
                                 <img
                                     src={p.img}
                                     alt={p.title}
